@@ -8,7 +8,7 @@ RUN apt-get update
 RUN apt-get -y install wget && \
     cd /tmp && \
     wget --progress=dot:mega \
-      http://nodejs.org/dist/v0.10.28/node-v0.10.28.tar.gz && \
+      http://nodejs.org/dist/v0.10.29/node-v0.10.29.tar.gz && \
     apt-get -y --purge remove wget
 
 # Compile and install (inspired by dockerfile/nodejs)
