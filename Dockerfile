@@ -1,9 +1,6 @@
 FROM ubuntu:14.04
 MAINTAINER Simo Kinnunen
 
-# Stop debconf from complaining about missing frontend
-ENV DEBIAN_FRONTEND noninteractive
-
 # Update
 RUN apt-get update
 
